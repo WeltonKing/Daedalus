@@ -3,3 +3,4 @@ rect.bmp
 BitmapFileHeader
 BitmapInfoHeader
 MazeGeneration
+*.o

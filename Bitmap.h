@@ -1,3 +1,4 @@
+
 #ifndef BITMAP_H
 #define BITMAP_H
 #include <string>
@@ -5,13 +6,14 @@
 #include <memory>
 #include "BitmapInfoHeader.h"
 #include "BitmapFileHeader.h"
-
+#include "Bitmap.h"
 using namespace std;
 using namespace mazeSpace;
 namespace mazeSpace{
 	class Bitmap{
 		private:
-			int m_width{0}, m_height{0};
+			int m_width{0};
+			int m_height{0};
 			unique_ptr<uint8_t[]> m_pPixel{NULL};
 		
 		public:

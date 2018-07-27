@@ -4,8 +4,9 @@
 using namespace std;
 using namespace mazeSpace;
 int main(){
-	int i;
+	cout << "Started" << endl;
 	Bitmap bitmap(800,600);
+	cout << "5" << endl;
 	bitmap.write("rect.bmp");
 	cout << "Done!" << endl;
 }
