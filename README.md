@@ -14,5 +14,6 @@ and the second will be the solving of that maze
  white: wall
  red: path visited
  blue: current position
+ Grey: Edge Pixels of the file
 
 
