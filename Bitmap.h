@@ -5,13 +5,14 @@
 #include <memory>
 #include "BitmapInfoHeader.h"
 #include "BitmapFileHeader.h"
+
 using namespace std;
 using namespace mazeSpace;
 namespace mazeSpace{
 	class Bitmap{
 		private:
 			int m_width{0}, m_height{0};
-			unique_ptr<uint8_t[]> m_pPixel{nullptr};
+			unique_ptr<uint8_t[]> m_pPixel{NULL};
 		
 		public:
 			Bitmap(int width, int height);
