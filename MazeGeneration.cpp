@@ -1,5 +1,5 @@
 #include <iostream>
-#include "BitMapFileHeader.h"
+#include "BitmapFileHeader.h"
 using namespace std;
 
 int main(){
